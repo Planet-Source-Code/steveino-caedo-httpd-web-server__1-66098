@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+   <head> 
+      <title>Error</title>
+   </head>
+	<style>
+body {
+	background-color:white;
+	color:black;
+	font-family:Trebuchet MS;
+	font-size:10pt;
+}
+</style>
+	<body>
+	<h1>403</h1><div>Forbidden, You do not have permission to view this page.
+</div>
+<hr />Powered by <a href="http://Caedo.0web.org">Caedo HTTP</a>
+   </body>
+</html>
