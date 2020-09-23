@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>SSI Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<font color="#0000FF" face="Verdana, Arial, Helvetica, sans-serif" size="4">SSI 
+(Server Side Includes) Example page<br>
+</font>
+<hr color="#0066FF" size="1">
+<font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>This 
+is just a example showing you how to use most of the common SSI tags in your web 
+pages.</b></font><font face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#000000"></font></b></font><font color="#000000"><br>
+<br>
+</font> 
+<table width="96%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="17%"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="2">Webserver 
+      software</font></td>
+    <td width="83%"><font color="#000000" size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+      <!--#echo var="SERVER_SOFTWARE"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="2">Server 
+      name</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="SERVER_NAME"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">Server 
+      port</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="SERVER_PORT"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="2">Local 
+      server date</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="DATE_LOCAL"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%" height="11"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="2">Document 
+      Name</font></td>
+    <td width="83%" height="11"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="DOCUMENT_NAME"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="2">Document 
+      URL</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="DOCUMENT_URI"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">Browser 
+      Ver </font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="HTTP_USER_AGENT"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">Referer</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="HTTP_REFERER"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">Request 
+      Type</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="REQUEST_METHOD"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">Remote 
+      host</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="REMOTE_HOST"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">Remote 
+      Addr</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="REMOTE_ADDR"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">Content 
+      Type</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="CONTENT_TYPE"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">Content 
+      Length</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="CONTENT_LENGTH"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font size="2" color="#000000" face="Verdana, Arial, Helvetica, sans-serif">Server 
+      protocol</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="SERVER_PROTOCOL"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Accept 
+      Language</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="HTTP_ACCEPT_LANGUAGE"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">HTTP 
+      Encoding</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="HTTP_ACCEPT_ENCODING"-->
+      </font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Connection 
+      State</font></td>
+    <td width="83%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <!--#echo var="HTTP_CONNECTION"-->
+      </font></td>
+  </tr>
+</table>
+<hr color="#0066FF" size="1">
+<font face="Arial, Helvetica, sans-serif" size="2"><b><font face="Verdana, Arial, Helvetica, sans-serif">This 
+is an example showing you how to include files into your pages.</font></b></font><br>
+<table width="57%" border="0" cellspacing="0" cellpadding="0" height="10">
+  <tr>
+    <td valign="top" height="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+      <font color="#000000">This text is from header.inc </font><br>
+      <br>
+      <!--#include file=".\test\header.inc" -->
+      </font></td>
+  </tr>
+</table>
+
+
+</body>
+</html>

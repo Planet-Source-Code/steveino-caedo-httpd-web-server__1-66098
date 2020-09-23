@@ -1,0 +1,15 @@
+TO DO
+------
+-Learn how to support GET and POST in PERL
+-Implement ASP
+-Add many more command line commands (still to do)
+-Basic www auth with a .HTACCESS type file 
+-Fix including files for PHP (tmp file workaround)
+
+
+TO DO AFTER 1.0
+----------------
+-Built in mail server
+-built in DynDNS client
+-Lock users to their directory with windows file perms. each vhost get a user and run php under that user
+-Made native PHp support another CustomCGI

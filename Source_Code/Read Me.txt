@@ -1,0 +1,41 @@
+Caedo HTTPd v.0.4 BETA
+-----------------------
+This is a special release for PSCODE.
+
+Step 1:
+-------
+
+You must download the VBZLIB application extension. It is
+simply the ZLIB dll that allows us to GZIP (compress) files for sending.
+
+DOWNLOAD IT HERE: http://caedo.0web.org/files/vzlib.dll
+
+
+Step 2:
+-------
+
+Place this file in the same folder as the source code. Put it
+in the exact same directory as the file Caedo HTTPd.vbp
+
+Foot Notes:
+-----------
+To view what is on our todo list, please read ToDO.lst
+
+This is version 0.4.2 and will not be further updated on PSC....
+
+To get any latest versions, you may download it from any of the source forge mirrors
+wich you can find a link to from http://caedo.0web.org (our official website).
+
+REMEMBER! This is open source, and is officially released at http://caedo.0web.org
+i will soon not support this version...
+
+Special Thanks:
+---------------
+
+Any commented "thanks" in the code, or any modules/classes i did not make...
+
+Also this is a rewrite of my original code, Titan Websever. 
+
+Special thanks to Ben Thomas for some code off his webserver. Like SSI bits , etc..
+
+im out
